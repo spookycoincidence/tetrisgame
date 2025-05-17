@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+![Tetris](tetris.png)
 
-First, run the development server:
+# Tetris Game 🕹️
 
+Un clon funcional y sencillo del clásico juego Tetris, desarrollado con React y Next.js.  
+Este proyecto tiene una interfaz limpia, controles por teclado y botones para iniciar y reiniciar el juego.
+
+---
+
+## ✨ Características
+* Tablero cuadrado de 20 filas por 10 columnas.
+* Piezas de colores que se mueven, rotan y caen.
+* Control mediante teclado (flechas) y botones de Start y Restart.
+* Diseño minimalista en blanco y negro con piezas coloridas.
+
+---
+
+## Capturas de pantalla
+
+Aquí algunas imágenes del juego en acción:
+
+![Tablero de juego](juego.png)  
+*Tablero de Tetris en juego, mostrando las piezas y el puntaje.*
+
+![Game over](gameover.png)  
+*Pantalla con botones de Start y Restart y game over*
+
+## 🚀 Instalación y uso
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/spookycoincidence/tetrisgame.git
+```
+2. Instalar dependencias:
+```bash
+cd tetrisgame
+npm install
+```
+3. Correr la app en modo desarrollo:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+4. Abrir http://localhost:3000 en el navegador
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Uso
+Usa las flechas del teclado para mover y rotar las piezas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Presiona Start para iniciar el juego.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Presiona Restart para reiniciar el juego en cualquier momento.
 
-## Learn More
+## Scripts disponibles
+* npm run dev - Inicia servidor de desarrollo
+* npm run build - Construye la app para producción
+* npm run start - Inicia servidor en modo producción
+* npm run lint - Corre el linter para detectar errores de código
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologías
+* ⚛️ Next.js 13
+* 🧠 React 18
+* 💜 TypeScript
+* 🔒 CSS puro (sin Tailwind)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Desarrollado con ❤️ por spookycoincidence

@@ -273,7 +273,7 @@ const Game = () => {
           lineHeight: 1,
         }}
       >
-        Tetris
+        TETRIS
       </h1>
 
       <div
